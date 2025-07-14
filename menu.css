@@ -1,0 +1,15 @@
+nav.mobile-menu svg.icon {
+	width: 1em;
+	height: 1em;
+	margin: 0 15px 10px 0;
+	fill: white;
+}
+
+nav.desktop-menu svg.icon {
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 5px 5px 0;
+	fill: white;
+}
+
+nav.desktop-menu ul li{margin-left:10px;}

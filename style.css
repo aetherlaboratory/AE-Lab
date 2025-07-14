@@ -1,0 +1,199 @@
+/*
+Theme Name: Ãƒâ€ ther Laboratory
+Theme URI: https://ae-lab.io
+Author: Gerry Vix
+Author URI: https://ae-lab.io
+Description: A responsive, mobile-first portfolio theme for web designers showcasing vector animations and featuring a quote form.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: aether-lab
+Tags: responsive, portfolio, animations, mobile-first, vector, one-column, two-columns, grid-layout
+*/
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+html, body {
+  line-height: 1.6;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+
+
+.site-wrapper {
+  height: 100%;
+}
+
+.apex{z-index:500 !important;}
+.alpha{z-index: 100 !important;}
+.beta{z-index: 75 !important;}
+.gamma {z-index: 50 !important;}
+.delta {z-index: 25 !important;}
+.sigma {z-index: 12 !important;}
+
+
+/* Fonts */
+
+
+
+.lexend-deca {
+  font-family: "Lexend Deca", sans-serif;
+  font-style: normal;
+}
+
+.play-regular {
+  font-family: "Play", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.play-bold {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.comfortaa{
+  font-family: "Comfortaa", sans-serif;
+  font-style: normal;
+}
+
+
+.exo-2{
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+}
+
+.archivo{
+  font-family: "Archivo", sans-serif;
+  font-style: normal;
+
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-style: normal;
+}
+
+.text-gray{color:#485785 !important;}
+
+svg.cat-icon{
+width: 25px;
+height: 25px;
+display: inline;
+vertical-align: bottom;
+}
+
+.bg-glass-light {
+  background: rgba(255, 255, 255, 0.6); /* Slight transparency for glass effect */
+  backdrop-filter: blur(10px); /* Frosted glass blur */
+  -webkit-backdrop-filter: blur(10px); /* Frosted glass blur for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for definition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Soft shadow */
+  padding: 1.5rem; /* Bootstrap-like padding */
+}
+
+.bg-glass-dark {
+  background: rgba(18, 18, 18, 0.6); /* Dark transparency */
+  backdrop-filter: blur(10px); /* Frosted glass blur */
+  -webkit-backdrop-filter: blur(10px); /* Frosted glass blur for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle lighter border for dark mode */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2); /* Darker shadow */
+  padding: 1.5rem; /* Bootstrap-like padding */
+}
+
+
+.bg-thin-glass-light {
+  background: rgba(255, 255, 255, 0.3); /* Slight transparency for glass effect */
+  backdrop-filter: blur(10px); /* Frosted glass blur */
+  -webkit-backdrop-filter: blur(10px); /* Frosted glass blur for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Subtle border for definition */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.06); /* Soft shadow */
+  padding: 1.5rem; /* Bootstrap-like padding */
+}
+
+.bg-thin-glass-dark {
+  background: rgba(18, 18, 18, 0.3); /* Dark transparency */
+  backdrop-filter: blur(10px); /* Frosted glass blur */
+  -webkit-backdrop-filter: blur(10px); /* Frosted glass blur for Safari */
+  border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle lighter border for dark mode */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.2); /* Darker shadow */
+  padding: 1.5rem; /* Bootstrap-like padding */
+}
+
+
+
+
+
+.page-home svg.cat-icon{fill: black; margin-right:.5em;}
+.page-blog svg.cat-icon{fill:lightblue;}
+
+.quote-cta{background-repeat: no-repeat; background-size:cover; }
+.carousel-item img {width: 100%;}
+
+.about-icon {width:3em; height:3em;}
+
+
+.nav-link{color:#485785 !important; font-weight:bolder !important;}
+
+nav.desktop-menu .icon{fill:black !important;}
+
+
+nav.desktop-menu::after{
+  content:'';
+  z-index:76 !important;
+  position: absolute;
+  width: 101%;
+  left: -1%;
+  background-repeat: no-repeat;
+  background-size:100%;
+  }
+
+
+
+/*
+ .divider-1{
+  height: 290px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDU5NS40NiAxMzEuNTMiPjxwYXRoIGQ9Ik01OTQuNTIgMTI2LjAxcy0zNC45Ny0zMC4yNy00Ny4wOS0zOS44Yy05LjE2LTcuMi05Ljc5LTcuMTQtNDYuMDQtNy4xNEgyLjExVi41aDU5Mi40M3oiIHN0eWxlPSJmaWxsOiNmYmZkZmUiLz48L3N2Zz4=');
+
+} 
+*/ 
+
+/* 
+.divider-2{
+  height: 540px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyBkYXRhLW5hbWU9IkxheWVyIDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDU5NS40NiAyMzAuNiI+PHBhdGggZD0iTS41NiAyMzAuMXMzOS44LTEzNC43IDEyOS42LTEzNC43aDQ2NC44Vi41SDEuNThzMCAyMzAuNjItMS4wMiAyMjkuNiIgc3R5bGU9ImZpbGw6I2ZiZmRmZSIvPjwvc3ZnPg==');
+}
+ */
+
+nav.desktop-menu::after{
+  margin-top:5px;
+  height: 170px;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTk0IiBoZWlnaHQ9IjIzIiB2aWV3Qm94PSIwIDAgNTk0IDIzIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0uNSAyMi4yNWgxNTIuOTFMMTg1LjYuNzloMjMxLjZsMzEuMyAyMS40NmgxNDQuODdWLjVILjk1Uy41IDI0LjQ4LjUgMjIuMjUiIGZpbGw9IiNGQkZERkUiLz48L3N2Zz4=');
+}
+
+@media all and (min-width:992px){
+div#myCarousel {margin-top:-49px;}
+}
+@media all and (max-width:1280px){
+.carousel-item img {
+  height: 500px !important;
+  background-size:100%;
+}
+
+}
