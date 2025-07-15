@@ -71,7 +71,7 @@ if ($related_posts->have_posts()) :?>
 <div class="col-12 col-md-10 col-lg-2 mb-5 mb-lg-0 px-0 rounded-3 mx-auto pt-0">
 <a href="<?php echo get_the_permalink(); ?>" class="text-decoration-none">
 <div class="pt-0">
-<img class="w-100 mx-0 pt-0 mt-0 rounded-3" <img src="<?php echo get_the_post_thumbnail_url();?>" />
+<img class="w-100 mx-0 pt-0 mt-0 rounded-3" src="<?php echo get_the_post_thumbnail_url();?>" />
 </div>
 <h3 class="text-center"><?php the_title();?></h3>
 <h5 class="text-center">
