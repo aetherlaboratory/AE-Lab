@@ -254,6 +254,18 @@ $options[]   = array(
   
   
   
+
+
+
+      array(
+  'id'      => 'about_need_website_img',
+  'type'    => 'upload',
+  'title'   => 'Need a Website Image',
+  'help'    => 'Upload a site logo for your branding.',
+),
+
+
+
   
 )
 );

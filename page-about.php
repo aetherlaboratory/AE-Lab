@@ -15,7 +15,7 @@ $skill_titleiii = get_cs_option('skill_titleiii');
 $skilliii = get_cs_option('skilliii');
 $skill_titleiv = get_cs_option('skill_titleiv');
 $skilliv = get_cs_option('skilliv');
-$need_website_img = get_cs_option('need_website_img');
+$about_need_website_img = get_cs_option('about_need_website_img');
 ?> 
 
 <!-- Bio -->
@@ -158,7 +158,7 @@ $need_website_img = get_cs_option('need_website_img');
 
 
 
-<section class="quote-cta fdb-block py-5 fdb-viewport bg-light" style="background-attachment:fixed; background-image: url(<?php echo esc_url($need_website_img); ?>);">
+<section class="quote-cta fdb-block py-5 fdb-viewport bg-light" style="background-attachment:fixed; background-image: url(<?php echo esc_url($about_need_website_img); ?>);">
 	<div class="container py-5 my-5 justify-content-center align-items-center d-flex">
 	<div class="row justify-content-center text-center">
 	<div class="col-12 col-md-8 bg-thin-glass-light rounded-5">

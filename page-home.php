@@ -29,18 +29,22 @@ $need_website_img = get_cs_option('need_website_img');
 </section>
 
 
-<section class="quote-cta fdb-block py-5 fdb-viewport bg-light" style="background-attachment:fixed; background-image: url(<?php echo esc_url($need_website_img); ?>);">
+<section class="quote-cta fdb-block py-5 fdb-viewport bg-dark text-dark" style="background-attachment:fixed; background-size:cover; background-image: url(<?php echo esc_url($need_website_img); ?>);">
 <div class="container py-5 my-5 justify-content-center align-items-center d-flex">
 <div class="row justify-content-center text-center">
-<div class="col-12 col-md-8 bg-thin-glass-light rounded-5">
+<div class="col-12 col-md-8 bg-glass-light rounded-5">
 <!-- SVG ICON Goes Here -->
-<h1>Need a Website?</h1>
+<h1 class="text-primary">Need a Website?</h1>
 <p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 <p class="mt-5"><a href="<?php echo home_url();?>/quote" class="btn btn-lg btn-dark">Quote a Design</a></p>
 </div>
 </div>
 </div>
 </section>
+
+
+
+
 
 
 <section class="bg-white text-dark fdb-blog fdb-viewport py-5">

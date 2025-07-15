@@ -14,7 +14,7 @@
      if ($query->have_posts()) : ?>
      <?php while ($query->have_posts()) : $query->the_post(); ?>
 
-      <li class="glide__slide slide"><a href="<?php the_permalink();?>"><img style="background-color:black;" src="<?php the_post_thumbnail_url();?>" class="img-fluid"/></a></li>
+      <li class="glide__slide slide"><a href="<?php echo the_permalink();?>"><img style="background-color:black;" src="<?php the_post_thumbnail_url();?>" class="img-fluid"/></a></li>
 <?php endwhile; ?>
       <?php wp_reset_postdata(); ?>
       <?php else : ?>

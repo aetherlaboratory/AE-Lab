@@ -6,7 +6,7 @@ $about_our_websites_img = get_cs_option('about_our_websites_img');
 ?> 
 
 <section class="fdb-block text-gray fdb-viewport py-5">
-<div class="container pb-3">
+<div class="container">
 <h2 class="text-center mb-4 pb-3 text-gray">Newest Project</h2>
 <?php
 $args = array(

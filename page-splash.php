@@ -41,9 +41,10 @@ text-align: center; /* Resets text alignment for content inside */
 <div class="outer">
 <div class="middle">
 <div class="inner">
-<img src="https://picsum.photos/id/193/1080/500">
+<img style="width:80%; z-index: 1;" src="<?php bloginfo('template_url'); ?>/img/Splash.png" alt="Splash Image" class="img-fluid
+position-absolute top-10 start-50 translate-middle">
 <br><br>
-<a href="<?php echo home_url();?>/home/"><button class="btn btn-lg btn-outline-dark rounded-pill">Enter Site</button> </a>
+<a class="position-relative" style="z-index: 9; top:250px;" href="<?php echo home_url();?>/home/"><button class="btn btn-lg btn-outline-dark rounded-pill">Enter Site</button> </a>
 </div><!-- inner -->
 </div><!-- middle -->
 </div><!-- outer -->
