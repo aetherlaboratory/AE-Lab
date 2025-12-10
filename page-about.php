@@ -54,19 +54,19 @@ $about_need_website_img = get_cs_option('about_need_website_img');
 </section>
 
 <!-- Services -->
-<section class="fdb-block fdb-viewport py-5 bg-dark text-light">
+<section class="bg-carbon fdb-block fdb-viewport py-5 bg-dark text-light">
 <div class="container">
 <div class="row align-items-center pb-xl-5">
 <div class="col-12 col-md-7 col-xl-5">
 <h1>Froala Design Blocks</h1>
-<p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+<p class="lead bg-carbon-flat p-2">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
 </div>
 <div class="col-12 col-sm-6 col-md-5 m-sm-auto mr-md-0 ml-md-auto pt-4 pt-md-0">
-<img alt="image" class="img-fluid" src="https://picsum.photos/id/1/700/400">
+<img alt="image" class="img-fluid rounded-2 border border-light border-2" src="https://picsum.photos/id/1/700/400">
 </div>
 </div>
 
-<div class="row pt-5">
+<div class="row bg-carbon-flat p-2 mt-2">
 <div class="col-12 col-sm-6 col-md-3">
 <h3><strong>Feature One</strong></h3>
 <p>Separated they live in Bookmarksgrove right at the coast of the Semantics, a large ocean.</p>
@@ -158,12 +158,12 @@ $about_need_website_img = get_cs_option('about_need_website_img');
 
 
 
-<section class="quote-cta fdb-block py-5 fdb-viewport bg-light" style="background-attachment:fixed; background-image: url(<?php echo esc_url($about_need_website_img); ?>);">
+<section class="quote-cta fdb-block py-5 fdb-viewport bg-light text-dark" style="background-attachment:fixed; background-image: url(<?php echo esc_url($about_need_website_img); ?>);">
 	<div class="container py-5 my-5 justify-content-center align-items-center d-flex">
 	<div class="row justify-content-center text-center">
-	<div class="col-12 col-md-8 bg-thin-glass-light rounded-5">
+	<div class="col-12 col-md-8 bg-glass-light rounded-5">
 	<!-- SVG ICON Goes Here -->
-	<h1>Need a Website?</h1>
+	<h1 class="text-primary">Need a Website?</h1>
 	<p class="lead">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 	<p class="mt-5"><a href="<?php echo home_url();?>/quote" class="btn btn-lg btn-dark">Quote a Design</a></p>
 	</div>
