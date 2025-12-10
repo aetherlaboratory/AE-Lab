@@ -175,7 +175,7 @@ nav.desktop-menu::after{
   content:'';
   z-index:76 !important;
   position: absolute;
-  width: 101%;
+  width: 103%;
   left: -1%;
   background-repeat: no-repeat;
   background-size:100%;
