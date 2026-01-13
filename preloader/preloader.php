@@ -9,7 +9,7 @@
 <span class="preloader-progress"></span>
 </div>
 
-<p class="preloader-text">LOADING 0%</p>
+<p class="preloader-text comfortaa">LOADING 0%</p>
 </div>
 </div>
 </div>
